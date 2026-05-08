@@ -1,0 +1,278 @@
+/* style.css */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   /* font-family: 'Fira Code', monospace; */
+   font-family: 'Source Code Pro', monospace;
+}
+
+body{
+  /* background: #37598b; */
+  /* background-color: #178582;
+  background-color: #BFA181; */
+  background-color: rgb(116, 59, 38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main Container */
+
+.container{
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Profile */
+
+.profile{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #000005;
+   box-shadow: 0 0 20px rgb(255, 0, 0);
+  margin-bottom: 10px;
+}
+
+.profile h1{
+  color: white;
+  font-size: 35px;
+  margin-bottom:10px;
+}
+
+.profile p{
+  color: lightgray;
+}
+
+/* Links */
+
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Link Card */
+
+.link-card{
+  /* background: white; */
+  
+  padding: 18px 20px;
+  border-radius: 15px;
+
+  text-decoration: none;
+  color: black;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.link-card:hover{
+  transform: scale(1.03);
+  background: #a1a0a0;
+  box-shadow: 0px 0px 50px #ff0d00;
+}
+
+/* ICON COLORS */
+
+.fa-youtube{
+  color: red;
+  font-size: 28px;
+}
+
+.fa-linkedin{
+  color: #0077b5;
+  font-size: 28px;
+}
+
+.fa-instagram{
+  color: #ec296a;
+  font-size: 28px;
+
+}
+
+.fa-square-x-twitter{
+  color: #000000;
+  font-size: 28px;
+
+}
+
+
+.fa-github{
+  color: black;
+  font-size: 28px;
+}
+
+.fa-globe{
+  color: #0ea5e9;
+  font-size: 28px;
+}
+
+.fa-spotify{
+  color: #02bb65;
+  font-size: 28px;
+}
+
+.fa-quora{
+  font-size: 28px;
+}
+
+.fa-phone{
+  color: #0e0e0f;
+  font-size: 26px;
+}
+
+.fa-gamepad{
+  color: #ffffff;
+  font-size: 26px;
+}
+
+.fa-image{
+  color: #3e91f6;
+  font-size: 26px;
+}
+
+
+
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:600px){
+
+  .profile h1{
+    font-size: 28px;
+  }
+
+  .link-card{
+    font-size: 18px;
+    padding: 16px;
+  }
+
+}
+
+/* share button */
+/* ========================= */
+/* TOP BAR */
+/* ========================= */
+
+.top-bar{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* User Icon
+
+.user-icon{
+  width: 45px;
+  height: 45px;
+
+  border-radius: 50%;
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  color: black;
+
+  cursor: pointer;
+} */
+
+
+/* ---------------------------------- */
+
+/* Share Button */
+
+.share-btn{
+  width: 40px;
+  height: 40px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: white;
+  color: black;
+
+  font-size: 15px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+/* .share-btn:hover{
+  transform: scale(1.1);
+} */
+
+
+
+/* ========================= */
+/* CALL BUTTON */
+/* ========================= */
+/* 
+.call-btn{
+
+  width: 40px;
+  height: 40px;
+  
+
+  border-radius: 50%;
+
+  background: white;
+
+  color: green;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+
+  font-size: 15px;
+
+  transition: 0.3s;
+}
+
+.call-btn:hover{
+
+  transform: scale(1.1);
+
+  box-shadow: 0 0 20px rgb(255, 0, 0);
+} */
+
+
+
+
+
+
+#changing-text{
+  color: #000000;
+  font-weight: bold;
+  display: inline-block;
+  min-width: auto;
+}
