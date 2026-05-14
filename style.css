@@ -50,6 +50,10 @@ body{
   margin-bottom:10px;
 }
 
+.profile h6{
+  margin-bottom: 10px;
+}
+  
 .profile p{
   color: lightgray;
 }
